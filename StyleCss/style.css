@@ -12,7 +12,9 @@ button {
   transition: all 0.3s ease-in-out;
   outline: none !important;
 }
-
+a {
+  text-decoration: none;
+}
 a:hover {
   text-decoration: none;
   cursor: pointer;
@@ -55,7 +57,12 @@ a:hover {
 .bloc-sm {
   padding: 20px 50px;
 }
-
+.text-title {
+  max-width: 614px;
+  margin: auto;
+  padding: 13px;
+  color: #364577;
+}
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
@@ -383,6 +390,9 @@ a:hover {
   }
   .nav-center .navbar-header {
     width: 100%;
+  }
+  .navbar-header {
+    margin: 0;
   }
   .nav-center .navbar-header,
   .nav-center .navbar-brand,
@@ -812,19 +822,19 @@ h4 {
 }
 
 .bg-dots-bg {
-  background-image: url("img/dots-bg.png");
+  background-image: url("../img/dots-bg.png");
 }
 
 .bg-lines-h2-bg {
-  background-image: url("img/lines-h2-bg.png");
+  background-image: url("../img/lines-h2-bg.png");
 }
 
 .bg-banniere {
-  background-image: url("img/la-chouette-agence-banniere.jpg");
+  background-image: url("../img/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
-  background-image: url("img/image-de-presentation.bmp");
+  background-image: url("../img/image-de-presentation.bmp");
 }
 
 @media (max-width: 1024px) {

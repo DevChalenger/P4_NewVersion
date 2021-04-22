@@ -14,6 +14,7 @@ button {
 }
 a {
   text-decoration: none;
+  display: block;
 }
 a:hover {
   text-decoration: none;
@@ -140,7 +141,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 1);
 }
 
 .d-bloc .a-btn:hover,
@@ -838,8 +839,19 @@ h4 {
 .bg-presentation {
   background-image: url("../img/image-de-presentation.webp");
 }
-ul {
-  font-size: 1.3em;
+li > a {
+  padding: 12px;
+}
+.col-sm-4 > ul {
+  margin-bottom: 20px;
+  padding-left: 24px;
+}
+.col-sm-4 > h3 {
+  color: white !important;
+  text-transform: none;
+}
+.col-sm-4 {
+  font-size: 1.2em;
 }
 @media (max-width: 1024px) {
   .bloc {

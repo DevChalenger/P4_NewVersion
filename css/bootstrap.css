@@ -217,6 +217,7 @@ th {
     url(../fonts/glyphicons-halflings-regular.ttf) format("truetype"),
     url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular)
       format("svg");
+  font-display: swap;
 }
 
 .glyphicon {
@@ -7993,4 +7994,3 @@ button.close {
   margin-right: auto;
   margin-left: auto;
 }
-

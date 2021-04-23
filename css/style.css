@@ -64,6 +64,9 @@ a:hover {
   padding: 13px;
   color: #364577;
 }
+.text-title2 {
+  max-width: 476px;
+}
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,

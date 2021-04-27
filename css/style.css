@@ -855,10 +855,10 @@ li > a {
 
 .col-sm-4 > h3 {
   text-transform: none;
+  color: white !important;
 }
 .col-sm-4 {
-  color: #000000 !important;
-  filter: contrast(2);
+  filter: contrast(3);
 }
 @media (max-width: 1024px) {
   .bloc {

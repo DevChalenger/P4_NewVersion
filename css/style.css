@@ -854,11 +854,11 @@ li > a {
 }
 
 .col-sm-4 > h3 {
-  color: white !important;
   text-transform: none;
 }
 .col-sm-4 {
-  font-size: 1em;
+  color: #000000 !important;
+  filter: contrast(2);
 }
 @media (max-width: 1024px) {
   .bloc {

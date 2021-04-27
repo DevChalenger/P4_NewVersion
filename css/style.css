@@ -492,6 +492,7 @@ button {
 
 .icon-md {
   font-size: 30px !important;
+  margin: 10px;
 }
 
 .icon-lg {
@@ -845,18 +846,19 @@ h4 {
   background-image: url("../img/image-de-presentation.webp");
 }
 li > a {
-  padding: 12px;
+  margin: 20px 0px;
 }
 .col-sm-4 > ul {
   margin-bottom: 20px;
   padding-left: 24px;
 }
+
 .col-sm-4 > h3 {
   color: white !important;
   text-transform: none;
 }
 .col-sm-4 {
-  font-size: 1.2em;
+  font-size: 1em;
 }
 @media (max-width: 1024px) {
   .bloc {
